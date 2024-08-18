@@ -1,0 +1,48 @@
+.calendar {
+    margin: 0 auto;
+}
+
+.calendar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.calendar-nav button {
+    background-color: #e02f35;
+    color: rgb(223, 217, 193);
+    border: none;
+    font-size: large;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.calendar button {
+    background-color: #f8b424;
+    color: #ecf0d4;
+    border: none;
+    padding: 30px;
+    border-radius: 100px;
+    font-size: large;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s, color 0.3s; /* Add transition effects */
+}
+
+.calendar button:hover {
+    background-color: #4CAF50; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+}
+
+.current-date {
+    background-color: black;
+    color: pink;
+}

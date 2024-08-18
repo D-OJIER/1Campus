@@ -1,0 +1,85 @@
+.event-panel-overlay {
+    position: fixed; /* Fixed position to cover the entire viewport */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-panel {
+    position: fixed; /* Fixed position */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the panel */
+    width: 700px; /* Adjust the width as needed */
+    max-width: 90%; /* Maximum width */
+    max-height: 90%; /* Maximum height */
+    background-color: rgb(32, 122, 145); /* Semi-transparent background */
+    color: black;
+    font-size: 1.1rem; /* Adjust font size */
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+    border: 2px solid white; /* Add border */
+    border-radius: 10px; /* Add border radius */
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #f44336; /* Red color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.close-button:hover {
+    background-color: #d32f2f; /* Darker red color on hover */
+}
+
+.prvevent-panel {
+    position: fixed; /* Fixed position */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the panel */
+    width: 700px; /* Adjust the width as needed */
+    max-width: 90%; /* Maximum width */
+    max-height: 90%; /* Maximum height */
+    background-color: rgb(32, 122, 145); /* Semi-transparent background */
+    color: black;
+    font-size: 1.1rem; /* Adjust font size */
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+    border: 2px solid white; /* Add border */
+    border-radius: 10px; /* Add border radius */
+}
+
+.upcoming-events-container {
+    position: fixed; /* Fixed position */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the panel */
+    width: 700px; /* Adjust the width as needed */
+    max-width: 90%; /* Maximum width */
+    max-height: 90%; /* Maximum height */
+    background-color: rgb(32, 122, 145); /* Semi-transparent background */
+    color: black;
+    font-size: 1.1rem; /* Adjust font size */
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+    border: 2px solid white; /* Add border */
+    border-radius: 10px; /* Add border radius */
+}
+
+
+  
